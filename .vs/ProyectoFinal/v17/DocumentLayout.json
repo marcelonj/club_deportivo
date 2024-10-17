@@ -1,0 +1,260 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\socios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\socios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\nvosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\nvosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|C:\\Users\\marce\\source\\repos\\ProyectoFinal\\proyectofinal\\nvosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\nvosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|C:\\Users\\marce\\source\\repos\\ProyectoFinal\\proyectofinal\\socios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\socios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|C:\\Users\\marce\\source\\repos\\ProyectoFinal\\proyectofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\datos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\datos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\datos\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\datos\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\datos\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\datos\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\nvosocio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\nvosocio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\marce\\source\\repos\\proyectofinal\\proyectofinal\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|C:\\Users\\marce\\source\\repos\\ProyectoFinal\\proyectofinal\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0692BE2B-A1A8-4401-845F-989628828B97}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "nvoSocio.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\nvoSocio.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\nvoSocio.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\nvoSocio.cs",
+              "RelativeToolTip": "ProyectoFinal\\nvoSocio.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADYAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:27:55.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Socios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Socios.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Socios.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Socios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFinal\\Socios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:26:04.443Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Conexion.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Datos\\Conexion.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Conexion.cs",
+              "RelativeToolTip": "ProyectoFinal\\Datos\\Conexion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T02:38:21.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nvoSocio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\nvoSocio.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\nvoSocio.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\nvoSocio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFinal\\nvoSocio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:29:36.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Form1.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Form1.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFinal\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:00:46.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Usuario.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Datos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Usuario.cs",
+              "RelativeToolTip": "ProyectoFinal\\Datos\\Usuario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:56:13.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Socio.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Socio.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Datos\\Socio.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Socio.cs",
+              "RelativeToolTip": "ProyectoFinal\\Datos\\Socio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:45:03.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Form1.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Form1.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Form1.cs",
+              "RelativeToolTip": "ProyectoFinal\\Form1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:53:18.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Socios.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Socios.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Socios.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Socios.cs",
+              "RelativeToolTip": "ProyectoFinal\\Socios.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwDYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:38:20.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Principal.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Principal.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Principal.cs",
+              "RelativeToolTip": "ProyectoFinal\\Principal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:24:30.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Persona.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Datos\\Persona.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Datos\\Persona.cs",
+              "RelativeToolTip": "ProyectoFinal\\Datos\\Persona.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwA8AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:41:53.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Principal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Principal.Designer.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Principal.Designer.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Principal.Designer.cs",
+              "RelativeToolTip": "ProyectoFinal\\Principal.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:28:25.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "nvoSocio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\nvoSocio.Designer.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\nvoSocio.Designer.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\nvoSocio.Designer.cs",
+              "RelativeToolTip": "ProyectoFinal\\nvoSocio.Designer.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwHMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:28:14.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Form1.Designer.cs",
+              "RelativeToolTip": "ProyectoFinal\\Form1.Designer.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowHsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T23:47:42.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Principal.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Principal.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ProyectoFinal\\ProyectoFinal\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFinal\\Principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:10:10.848Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
