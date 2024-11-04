@@ -39,22 +39,30 @@
             // 
             // btnAgregarSocio
             // 
-            btnAgregarSocio.Location = new System.Drawing.Point(536, 356);
+            btnAgregarSocio.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
+            btnAgregarSocio.Font = new System.Drawing.Font("Futura Bk BT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnAgregarSocio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            btnAgregarSocio.Location = new System.Drawing.Point(613, 475);
+            btnAgregarSocio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnAgregarSocio.Name = "btnAgregarSocio";
-            btnAgregarSocio.Size = new System.Drawing.Size(109, 25);
+            btnAgregarSocio.Size = new System.Drawing.Size(125, 33);
             btnAgregarSocio.TabIndex = 0;
             btnAgregarSocio.Text = "Agregar socio";
-            btnAgregarSocio.UseVisualStyleBackColor = true;
+            btnAgregarSocio.UseVisualStyleBackColor = false;
             btnAgregarSocio.Click += btnAgregarSocio_Click;
             // 
             // btnVolver
             // 
-            btnVolver.Location = new System.Drawing.Point(651, 356);
+            btnVolver.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
+            btnVolver.Font = new System.Drawing.Font("Futura Bk BT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnVolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            btnVolver.Location = new System.Drawing.Point(744, 475);
+            btnVolver.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new System.Drawing.Size(75, 25);
+            btnVolver.Size = new System.Drawing.Size(86, 33);
             btnVolver.TabIndex = 1;
             btnVolver.Text = "Volver";
-            btnVolver.UseVisualStyleBackColor = true;
+            btnVolver.UseVisualStyleBackColor = false;
             btnVolver.Click += btnVolver_Click;
             // 
             // conexionBindingSource
@@ -63,21 +71,26 @@
             // 
             // dtgvSocios
             // 
+            dtgvSocios.BackgroundColor = System.Drawing.Color.FromArgb(213, 229, 240);
             dtgvSocios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgvSocios.Location = new System.Drawing.Point(72, 30);
+            dtgvSocios.Location = new System.Drawing.Point(82, 40);
+            dtgvSocios.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             dtgvSocios.Name = "dtgvSocios";
+            dtgvSocios.RowHeadersWidth = 51;
             dtgvSocios.RowTemplate.Height = 25;
-            dtgvSocios.Size = new System.Drawing.Size(654, 294);
+            dtgvSocios.Size = new System.Drawing.Size(747, 392);
             dtgvSocios.TabIndex = 2;
             // 
             // Socios
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(800, 450);
+            BackColor = System.Drawing.Color.FromArgb(153, 206, 213);
+            ClientSize = new System.Drawing.Size(914, 600);
             Controls.Add(dtgvSocios);
             Controls.Add(btnVolver);
             Controls.Add(btnAgregarSocio);
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "Socios";
             Text = "Socios";
             Load += Socios_Load;

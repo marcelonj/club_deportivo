@@ -49,8 +49,8 @@ namespace ProyectoFinal
             {
                 MessageBox.Show(ex.Message);
             }
-    
-            if(nroSocio > 0)
+
+            if (nroSocio > 0)
             {
                 string insert = "INSERT INTO socio (nroSocio, nombre, apellido, genero, edad, dni) VALUES (@nroSocio, @nombre, @apellido, @genero, @edad, @dni)";
                 con.Open();
@@ -71,6 +71,11 @@ namespace ProyectoFinal
                 MessageBox.Show("Ocurrio un error al obtener el número de socio");
             }
             con.Close();
+        }
+
+        private void nvoSocio_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -19,8 +19,8 @@ namespace ProyectoFinal.Datos
             this.database = "ClubDeportivo";
             this.host = "127.0.0.1";
             this.port = "3306";
-            this.user = "master";
-            this.pass = "1234";
+            this.user = "root";
+            this.pass = "magga7980";
         }
 
         public MySqlConnection CrearConexion()
