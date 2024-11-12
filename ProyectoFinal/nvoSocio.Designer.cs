@@ -182,7 +182,6 @@
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "nvoSocio";
             Text = "nvoSocio";
-            Load += nvoSocio_Load;
             ResumeLayout(false);
             PerformLayout();
         }

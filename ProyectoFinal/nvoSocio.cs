@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using ProyectoFinal.Entidades;
 
 namespace ProyectoFinal
 {
@@ -32,50 +33,37 @@ namespace ProyectoFinal
             MySqlConnection con = null;
             MySqlCommand cmd = null;
 
-            try
+            if (txtNombre.Text == "" || txtApellido.Text == "" || cboGenero.Text == "" || txtEdad.Text == "" || txtDni.Text == "")
             {
-                con = Datos.Conexion.getInstancia().CrearConexion();
-                cmd = new MySqlCommand("getNroSocio", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                con.Open();
-                MySqlDataReader resultado = cmd.ExecuteReader();
-                if (resultado.Read())
-                {
-                    nroSocio = resultado.GetInt32(0);
-                }
-                con.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-            if (nroSocio > 0)
-            {
-                string insert = "INSERT INTO socio (nroSocio, nombre, apellido, genero, edad, dni) VALUES (@nroSocio, @nombre, @apellido, @genero, @edad, @dni)";
-                con.Open();
-                cmd = new MySqlCommand(insert, con);
-                cmd.Parameters.Add(new MySqlParameter("@nroSocio", nroSocio));
-                cmd.Parameters.Add(new MySqlParameter("@nombre", txtNombre.Text));
-                cmd.Parameters.Add(new MySqlParameter("@apellido", txtApellido.Text));
-                cmd.Parameters.Add(new MySqlParameter("@genero", cboGenero.Text));
-                cmd.Parameters.Add(new MySqlParameter("@edad", txtEdad.Text));
-                cmd.Parameters.Add(new MySqlParameter("@dni", txtDni.Text));
-                if (cmd.ExecuteNonQuery() > 0)
-                {
-                    MessageBox.Show("Se agrego al nuevo socio correctamente\nNúmero de socio: " + nroSocio);
-                }
+                MessageBox.Show("Debe completar todos los campos para registrar un nuevo socio", "AVISO DEL SISTEMA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Ocurrio un error al obtener el número de socio");
+                string respuesta;
+
+                E_Socio socio = new E_Socio();
+                socio.nombre = txtNombre.Text;
+                socio.apellido = txtApellido.Text;
+                socio.genero = cboGenero.Text;
+                socio.edad = Convert.ToInt32(txtEdad.Text);
+                socio.dni = Convert.ToInt32(txtDni.Text);
+
+                Datos.Socio socios = new Datos.Socio();
+                respuesta = socios.Nuevo_Socio(socio);
+
+                bool esnumero = int.TryParse(respuesta, out int codigo);
+                if (esnumero)
+                {
+                    if (codigo == 1)
+                    {
+                        MessageBox.Show("POSTULANTE YA EXISTE", "AVISO DEL SISTEMA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show("se almaceno con exito con el codigo Nro  " + respuesta, "AVISO DEL SISTEMA", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                    }
+                }
             }
-            con.Close();
-        }
-
-        private void nvoSocio_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
