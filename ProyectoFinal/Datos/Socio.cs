@@ -23,6 +23,7 @@ namespace ProyectoFinal.Datos
                 comando.Parameters.Add("Gen", MySqlDbType.VarChar).Value = socio.genero;
                 comando.Parameters.Add("Edad", MySqlDbType.Int32).Value = socio.edad;
                 comando.Parameters.Add("Doc", MySqlDbType.Int32).Value = socio.dni;
+                comando.Parameters.Add("Tipo", MySqlDbType.Int32).Value = socio.tipo;
                 MySqlParameter ParCodigo = new MySqlParameter();
                 ParCodigo.ParameterName = "rta";
                 ParCodigo.MySqlDbType = MySqlDbType.Int32;

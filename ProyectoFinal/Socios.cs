@@ -14,6 +14,46 @@ namespace ProyectoFinal
         public Socios()
         {
             InitializeComponent();
+            cboTipo.Items.Add("Socios");
+            cboTipo.Items.Add("No socios");
+            cboTipo.Text = "Socios";
+        }
+
+        private void actualizarDataGrid(int tipo)
+        {
+            DataTable dt = new DataTable();
+            MySqlConnection con = Datos.Conexion.getInstancia().CrearConexion();
+            MySqlDataReader resultado;
+            try
+            {
+                string query = "SELECT * FROM socio WHERE tipo=" + tipo + ";";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.CommandType = CommandType.Text;
+                con.Open();
+
+                resultado = cmd.ExecuteReader();
+                dt.Load(resultado);
+
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            dtgvSocios.DataSource = dt;
+        }
+
+        private void refrescarDataGrid()
+        {
+            if(cboTipo.Text == "Socios")
+            {
+                actualizarDataGrid(1);
+            }
+            else if(cboTipo.Text == "No socios")
+            {
+                actualizarDataGrid(2);
+            }
         }
 
         private void btnAgregarSocio_Click(object sender, EventArgs e)
@@ -32,28 +72,7 @@ namespace ProyectoFinal
 
         private void Socios_Load(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
-            MySqlConnection con = Datos.Conexion.getInstancia().CrearConexion();
-            MySqlDataReader resultado;
-            try
-            {
-
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM socio;", con);
-                cmd.CommandType = CommandType.Text;
-                con.Open();
-
-                resultado = cmd.ExecuteReader();
-                dt.Load(resultado);
-
-                con.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-            dtgvSocios.DataSource = dt;
-
+            refrescarDataGrid();
         }
     }
 }

@@ -41,11 +41,11 @@
             // 
             // txtUser
             // 
-            txtUser.Font = new System.Drawing.Font("Futura Bk BT", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txtUser.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             txtUser.Location = new System.Drawing.Point(624, 157);
             txtUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtUser.Name = "txtUser";
-            txtUser.Size = new System.Drawing.Size(185, 19);
+            txtUser.Size = new System.Drawing.Size(185, 23);
             txtUser.TabIndex = 0;
             txtUser.Text = "USUARIO";
             txtUser.Enter += txtUser_Enter;
@@ -53,11 +53,11 @@
             // 
             // txtPass
             // 
-            txtPass.Font = new System.Drawing.Font("Futura Bk BT", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txtPass.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             txtPass.Location = new System.Drawing.Point(624, 203);
             txtPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtPass.Name = "txtPass";
-            txtPass.Size = new System.Drawing.Size(185, 19);
+            txtPass.Size = new System.Drawing.Size(185, 23);
             txtPass.TabIndex = 1;
             txtPass.Text = "CONTRASEÑA";
             txtPass.Enter += txtPass_Enter;
@@ -66,7 +66,7 @@
             // btnLogin
             // 
             btnLogin.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
-            btnLogin.Font = new System.Drawing.Font("Futura Bk BT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             btnLogin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             btnLogin.Location = new System.Drawing.Point(664, 286);
             btnLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -80,31 +80,31 @@
             // lblUser
             // 
             lblUser.AutoSize = true;
-            lblUser.Font = new System.Drawing.Font("Futura BdCn BT", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lblUser.Location = new System.Drawing.Point(554, 154);
             lblUser.Name = "lblUser";
-            lblUser.Size = new System.Drawing.Size(64, 21);
+            lblUser.Size = new System.Drawing.Size(64, 18);
             lblUser.TabIndex = 3;
             lblUser.Text = "Usuario:";
             // 
             // lblPass
             // 
             lblPass.AutoSize = true;
-            lblPass.Font = new System.Drawing.Font("Futura BdCn BT", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lblPass.Location = new System.Drawing.Point(528, 200);
             lblPass.Name = "lblPass";
-            lblPass.Size = new System.Drawing.Size(87, 21);
+            lblPass.Size = new System.Drawing.Size(89, 18);
             lblPass.TabIndex = 4;
             lblPass.Text = "Contraseña:";
             // 
             // lwchkShowHidePass
             // 
             lwchkShowHidePass.AutoSize = true;
-            lwchkShowHidePass.Font = new System.Drawing.Font("Futura BdCn BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lwchkShowHidePass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             lwchkShowHidePass.Location = new System.Drawing.Point(646, 248);
             lwchkShowHidePass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             lwchkShowHidePass.Name = "lwchkShowHidePass";
-            lwchkShowHidePass.Size = new System.Drawing.Size(133, 22);
+            lwchkShowHidePass.Size = new System.Drawing.Size(132, 19);
             lwchkShowHidePass.TabIndex = 5;
             lwchkShowHidePass.Text = "Mostrar contraseña";
             lwchkShowHidePass.UseVisualStyleBackColor = true;
@@ -123,7 +123,7 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(153, 206, 213);
             ClientSize = new System.Drawing.Size(1028, 600);

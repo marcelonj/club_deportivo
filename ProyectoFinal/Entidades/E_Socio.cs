@@ -12,5 +12,6 @@ namespace ProyectoFinal.Entidades
         public int edad { get; set; }
         public int dni { get; set; }
         public int nroSocio { get; set; }
+        public int tipo { get; set; }
     }
 }

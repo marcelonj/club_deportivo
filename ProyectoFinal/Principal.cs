@@ -22,14 +22,21 @@ namespace ProyectoFinal
 
         private void btnSocios_Click(object sender, EventArgs e)
         {
-            Socios socios = new Socios();
-            socios.Show();
+            nvoSocio nvosocios = new nvoSocio();
+            nvosocios.Show();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnListado_Click(object sender, EventArgs e)
+        {
+            Socios socios = new Socios();
+            socios.Show();
+            this.Hide();
         }
     }
 }

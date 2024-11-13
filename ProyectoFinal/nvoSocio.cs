@@ -18,21 +18,18 @@ namespace ProyectoFinal
             cboGenero.Items.Add("Masculino");
             cboGenero.Items.Add("Femenino");
             cboGenero.Items.Add("Otro");
+            optSocio.Checked = true;
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Socios socios = new Socios();
-            socios.Show();
+            Principal menu = new Principal();
+            menu.Show();
             this.Close();
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            int nroSocio = 0;
-            MySqlConnection con = null;
-            MySqlCommand cmd = null;
-
             if (txtNombre.Text == "" || txtApellido.Text == "" || cboGenero.Text == "" || txtEdad.Text == "" || txtDni.Text == "")
             {
                 MessageBox.Show("Debe completar todos los campos para registrar un nuevo socio", "AVISO DEL SISTEMA", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -47,6 +44,14 @@ namespace ProyectoFinal
                 socio.genero = cboGenero.Text;
                 socio.edad = Convert.ToInt32(txtEdad.Text);
                 socio.dni = Convert.ToInt32(txtDni.Text);
+                if (optSocio.Checked)
+                {
+                    socio.tipo = 1;
+                }
+                else if (optNoSocio.Checked)
+                {
+                    socio.tipo = 2;
+                }
 
                 Datos.Socio socios = new Datos.Socio();
                 respuesta = socios.Nuevo_Socio(socio);
