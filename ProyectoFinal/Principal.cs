@@ -29,7 +29,9 @@ namespace ProyectoFinal
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Cuota cuota = new Cuota();
+            cuota.Show();
+            this.Hide();
         }
 
         private void btnListado_Click(object sender, EventArgs e)
