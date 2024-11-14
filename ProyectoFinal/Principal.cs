@@ -38,5 +38,12 @@ namespace ProyectoFinal
             socios.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Carnet carnet = new Carnet();
+            carnet.Show();
+            this.Hide();
+        }
     }
 }

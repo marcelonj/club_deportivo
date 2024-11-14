@@ -66,7 +66,7 @@
             button1.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
             button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            button1.Location = new System.Drawing.Point(86, 135);
+            button1.Location = new System.Drawing.Point(86, 189);
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(151, 48);
             button1.TabIndex = 2;
@@ -79,7 +79,7 @@
             btnListado.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
             btnListado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             btnListado.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            btnListado.Location = new System.Drawing.Point(86, 189);
+            btnListado.Location = new System.Drawing.Point(86, 135);
             btnListado.Name = "btnListado";
             btnListado.Size = new System.Drawing.Size(151, 48);
             btnListado.TabIndex = 3;
@@ -98,6 +98,7 @@
             button3.TabIndex = 4;
             button3.Text = "Emitir Carnet";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // Principal
             // 

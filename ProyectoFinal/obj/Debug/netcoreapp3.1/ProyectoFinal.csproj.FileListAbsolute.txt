@@ -60,3 +60,4 @@ C:\Users\User\Source\Repos\club_deportivo\ProyectoFinal\obj\Debug\netcoreapp3.1\
 C:\Users\User\Source\Repos\club_deportivo\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.pdb
 C:\Users\User\Source\Repos\club_deportivo\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.genruntimeconfig.cache
 C:\Users\marce\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.sourcelink.json
+C:\Users\marce\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.Carnet.resources
