@@ -33,6 +33,15 @@ create table carnet(
     constraint fk_socio foreign key (nroSocio) references socio(nroSocio)
 );
 
+create table recibo(
+	nroRecibo int auto_increment,
+    emision datetime,
+    monto float,
+    nroSocio int,
+    constraint pk_recibo primary key (nroRecibo),
+    constraint fk_socio_recibo foreign key (nroSocio) references socio(nroSocio)
+);
+
 delimiter //  
 create procedure IngresoLogin(in Usu varchar(20),in Pass varchar(15))
 
@@ -96,7 +105,7 @@ begin
       end if;
 end //
 
-create procedure PagarCuota(in nSocio int, out rta int)
+create procedure PagarCuota(in nSocio int, in Cant float, out rta int)
 begin
 	declare filas int default 0;
 	declare resultado int default 0;
@@ -104,11 +113,13 @@ begin
     
 	set filas = (select count(*) from carnet where nroSocio=nSocio);
 	if filas = 0 then
+		insert into recibo (emision, monto, nroSocio) values (now(), Cant, nSocio);
 		set resultado = 1;
 	else
 		select fechaVencimiento from carnet where nroSocio=nSocio into fecha;
 		if fecha is null or fecha < now() then
 			update carnet set fechaVencimiento=DATE_ADD(now(), INTERVAL 1 MONTH) where nroSocio=nSocio;
+            insert into recibo (emision, monto, nroSocio) values (now(), Cant, nSocio);
             set resultado = 3;
 		else
 			set resultado = 2;
