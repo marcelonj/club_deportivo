@@ -41,8 +41,10 @@
             btnRegistrar = new System.Windows.Forms.Button();
             btnVolver = new System.Windows.Forms.Button();
             groupBox1 = new System.Windows.Forms.GroupBox();
-            optSocio = new System.Windows.Forms.RadioButton();
             optNoSocio = new System.Windows.Forms.RadioButton();
+            optSocio = new System.Windows.Forms.RadioButton();
+            cboApto = new System.Windows.Forms.ComboBox();
+            lblApto = new System.Windows.Forms.Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -137,7 +139,7 @@
             btnRegistrar.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
             btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnRegistrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            btnRegistrar.Location = new System.Drawing.Point(395, 269);
+            btnRegistrar.Location = new System.Drawing.Point(395, 301);
             btnRegistrar.Name = "btnRegistrar";
             btnRegistrar.Size = new System.Drawing.Size(75, 23);
             btnRegistrar.TabIndex = 11;
@@ -150,7 +152,7 @@
             btnVolver.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
             btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnVolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            btnVolver.Location = new System.Drawing.Point(395, 298);
+            btnVolver.Location = new System.Drawing.Point(395, 330);
             btnVolver.Name = "btnVolver";
             btnVolver.Size = new System.Drawing.Size(75, 23);
             btnVolver.TabIndex = 12;
@@ -169,17 +171,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Condición";
             // 
-            // optSocio
-            // 
-            optSocio.AutoSize = true;
-            optSocio.Location = new System.Drawing.Point(21, 22);
-            optSocio.Name = "optSocio";
-            optSocio.Size = new System.Drawing.Size(54, 19);
-            optSocio.TabIndex = 0;
-            optSocio.TabStop = true;
-            optSocio.Text = "Socio";
-            optSocio.UseVisualStyleBackColor = true;
-            // 
             // optNoSocio
             // 
             optNoSocio.AutoSize = true;
@@ -191,12 +182,43 @@
             optNoSocio.Text = "No socio";
             optNoSocio.UseVisualStyleBackColor = true;
             // 
+            // optSocio
+            // 
+            optSocio.AutoSize = true;
+            optSocio.Location = new System.Drawing.Point(21, 22);
+            optSocio.Name = "optSocio";
+            optSocio.Size = new System.Drawing.Size(54, 19);
+            optSocio.TabIndex = 0;
+            optSocio.TabStop = true;
+            optSocio.Text = "Socio";
+            optSocio.UseVisualStyleBackColor = true;
+            // 
+            // cboApto
+            // 
+            cboApto.FormattingEnabled = true;
+            cboApto.Location = new System.Drawing.Point(246, 242);
+            cboApto.Name = "cboApto";
+            cboApto.Size = new System.Drawing.Size(158, 23);
+            cboApto.TabIndex = 15;
+            // 
+            // lblApto
+            // 
+            lblApto.AutoSize = true;
+            lblApto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblApto.Location = new System.Drawing.Point(175, 244);
+            lblApto.Name = "lblApto";
+            lblApto.Size = new System.Drawing.Size(65, 15);
+            lblApto.TabIndex = 14;
+            lblApto.Text = "Apto físico:";
+            // 
             // nvoSocio
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(153, 206, 213);
             ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(cboApto);
+            Controls.Add(lblApto);
             Controls.Add(groupBox1);
             Controls.Add(btnVolver);
             Controls.Add(btnRegistrar);
@@ -235,5 +257,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton optNoSocio;
         private System.Windows.Forms.RadioButton optSocio;
+        private System.Windows.Forms.ComboBox cboApto;
+        private System.Windows.Forms.Label lblApto;
     }
 }

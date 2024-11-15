@@ -26,7 +26,7 @@ namespace ProyectoFinal
             MySqlDataReader resultado;
             try
             {
-                string query = "SELECT * FROM socio WHERE tipo=" + tipo + ";";
+                string query = "SELECT nroSocio, nombre, apellido, genero, dni FROM socio WHERE tipo=" + tipo + ";";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.CommandType = CommandType.Text;
                 con.Open();

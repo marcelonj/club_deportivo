@@ -13,5 +13,6 @@ namespace ProyectoFinal.Entidades
         public int dni { get; set; }
         public int nroSocio { get; set; }
         public int tipo { get; set; }
+        public string apto {  get; set; }
     }
 }
