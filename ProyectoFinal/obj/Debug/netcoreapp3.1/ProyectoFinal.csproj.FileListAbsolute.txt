@@ -62,3 +62,4 @@ C:\Users\User\Source\Repos\club_deportivo\ProyectoFinal\obj\Debug\netcoreapp3.1\
 C:\Users\marce\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.sourcelink.json
 C:\Users\marce\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.Carnet.resources
 C:\Users\marce\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.Cuota.resources
+C:\Users\marce\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.Vencimientos.resources

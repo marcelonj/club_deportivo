@@ -47,5 +47,12 @@ namespace ProyectoFinal
             carnet.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Vencimientos vencimientos = new Vencimientos();
+            vencimientos.Show();
+            this.Hide();
+        }
     }
 }

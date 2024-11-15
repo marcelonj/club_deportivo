@@ -33,6 +33,7 @@
             button1 = new System.Windows.Forms.Button();
             btnListado = new System.Windows.Forms.Button();
             button3 = new System.Windows.Forms.Button();
+            button2 = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // btnSalir
@@ -100,12 +101,26 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = System.Drawing.Color.FromArgb(90, 150, 191);
+            button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            button2.Location = new System.Drawing.Point(86, 297);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(151, 48);
+            button2.TabIndex = 5;
+            button2.Text = "Hoy vencen";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(153, 206, 213);
             ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(button3);
             Controls.Add(btnListado);
             Controls.Add(button1);
@@ -123,5 +138,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnListado;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
