@@ -63,7 +63,7 @@ end
 
 call IngresoLogin('admin', '123456')//
 
-create procedure NuevoSocio(in Nom varchar(50),in Ape varchar(50),in Gen varchar(50), in Edad int, in Doc int, in Tipo int,  out rta int)
+create procedure NuevoSocio(in Nom varchar(50),in Ape varchar(50),in Gen varchar(50), in Edad int, in Doc int, in Tipo int, in Apto varchar(50),  out rta int)
 begin
 	declare filas int default 0;
 	declare existe int default 0;
@@ -77,7 +77,7 @@ begin
 	end if;
 
 	if existe = 0 then	 
-	 insert into socio values(filas,Nom,Ape,Gen,Edad,Doc,Tipo);
+	 insert into socio values(filas,Nom,Ape,Gen,Edad,Doc,Tipo,Apto);
 	 set rta  = filas;
 	else
 	 set rta = existe;
