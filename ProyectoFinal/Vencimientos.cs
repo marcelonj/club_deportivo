@@ -26,7 +26,6 @@ namespace ProyectoFinal
             try
             {
                 string query = "SELECT s.nroSocio, nombre, apellido, genero, dni FROM socio s INNER JOIN carnet c ON s.nroSocio=c.nroSocio WHERE fechaVencimiento='" + fechaFormateada + "';";
-                MessageBox.Show(query);
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.CommandType = CommandType.Text;
                 con.Open();

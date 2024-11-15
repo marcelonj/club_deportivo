@@ -70,9 +70,10 @@ begin
 
 	set filas = (select count(*) from socio);
 	if filas = 0 then
-	set filas = 452;
-	set filas = (select max(nroSocio) + 1 from socio);	
-	set existe = (select count(*) from socio where dni = Doc);
+		set filas = 452;
+	else
+		set filas = (select max(nroSocio) + 1 from socio);
+        set existe = (select count(*) from socio where dni = Doc);
 	end if;
 
 	if existe = 0 then	 
