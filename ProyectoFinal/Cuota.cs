@@ -76,35 +76,56 @@ namespace ProyectoFinal
 
         private void txtDocumento_TextChanged(object sender, EventArgs e)
         {
-            if (comprobarDocumento(Convert.ToInt32(txtDocumento.Text)) != 0)
+            int nroSocio;
+            if(int.TryParse(txtDocumento.Text, out nroSocio))
             {
-                btnCuota.Enabled = true;
-                int nroSocio = comprobarDocumento(Convert.ToInt32(txtDocumento.Text));
+                if (comprobarDocumento(Convert.ToInt32(txtDocumento.Text)) != 0)
+                {
+                    if(txtMonto.Text != "")
+                    {
+                        btnCuota.Enabled = true;
+                    }                    
+                    nroSocio = comprobarDocumento(Convert.ToInt32(txtDocumento.Text));
+                }
+                else
+                {
+                    btnCuota.Enabled = false;
+                    limpiarDatos();
+                }
             }
             else
             {
-                btnCuota.Enabled = false;
-                limpiarDatos();
+                btnCuota.Enabled= false;
             }
+            
         }
 
         private void btnCuota_Click(object sender, EventArgs e)
         {
             int nroSocio = comprobarDocumento(Convert.ToInt32(txtDocumento.Text));
-            Datos.Carnet carnet = new Datos.Carnet();
-            int resultado = Convert.ToInt32(carnet.Pagar_Cuota(nroSocio));
-            switch (resultado)
+            float monto;
+            if(float.TryParse(txtMonto.Text, out monto))
             {
-                case 1:
-                    MessageBox.Show("El socio no posee carnet", "CARNET NO ENCONTRADO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    break;
-                case 2:
-                    MessageBox.Show("El socio posee la cuota al dia", "CUOTA AL DIA", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    break;
-                case 3:
-                    MessageBox.Show("Cuota pagada correctamente", "PAGO EXITOSO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    break;
+                Datos.Carnet carnet = new Datos.Carnet();
+                int resultado = Convert.ToInt32(carnet.Pagar_Cuota(nroSocio, monto));
+                switch (resultado)
+                {
+                    case 1:
+                        MessageBox.Show("No socio pago el día", "PAGADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    case 2:
+                        MessageBox.Show("El socio posee la cuota al dia", "CUOTA AL DIA", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    case 3:
+                        MessageBox.Show("Cuota pagada correctamente", "PAGO EXITOSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                }
             }
+            else
+            {
+                MessageBox.Show("Ingrese un monto válido", "MONTO INVALIDO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
     }
 }

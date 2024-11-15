@@ -42,7 +42,7 @@ namespace ProyectoFinal.Datos
             return salida;
         }
 
-        public string Pagar_Cuota(int nroSocio)
+        public string Pagar_Cuota(int nroSocio, float monto)
         {
             string? salida;
             MySqlConnection sqlCon = new MySqlConnection();
@@ -52,6 +52,7 @@ namespace ProyectoFinal.Datos
                 MySqlCommand comando = new MySqlCommand("PagarCuota", sqlCon);
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.Add("nSocio", MySqlDbType.Int32).Value = nroSocio;
+                comando.Parameters.Add("Cant", MySqlDbType.Float).Value = monto;
                 MySqlParameter ParCodigo = new MySqlParameter();
                 ParCodigo.ParameterName = "rta";
                 ParCodigo.MySqlDbType = MySqlDbType.Int32;

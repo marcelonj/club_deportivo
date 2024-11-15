@@ -77,10 +77,19 @@ namespace ProyectoFinal
 
         private void txtDocumento_TextChanged(object sender, EventArgs e)
         {
-            if (comprobarDocumento(Convert.ToInt32(txtDocumento.Text)) != 0)
+            int nroSocio;
+            if (int.TryParse(txtDocumento.Text, out nroSocio))
             {
-                btnEmitir.Enabled = true;
-                int nroSocio = comprobarDocumento(Convert.ToInt32(txtDocumento.Text));
+                if (comprobarDocumento(Convert.ToInt32(txtDocumento.Text)) != 0)
+                {
+                    btnEmitir.Enabled = true;
+                    nroSocio = comprobarDocumento(Convert.ToInt32(txtDocumento.Text));
+                }
+                else
+                {
+                    btnEmitir.Enabled = false;
+                    limpiarDatos();
+                }
             }
             else
             {

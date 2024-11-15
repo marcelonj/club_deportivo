@@ -41,6 +41,8 @@
             txtDocumento = new System.Windows.Forms.TextBox();
             lblDoc = new System.Windows.Forms.Label();
             btnVolver = new System.Windows.Forms.Button();
+            txtMonto = new System.Windows.Forms.TextBox();
+            lblMonto = new System.Windows.Forms.Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -137,7 +139,7 @@
             // 
             btnCuota.BackColor = System.Drawing.Color.FromArgb(255, 192, 128);
             btnCuota.Enabled = false;
-            btnCuota.Location = new System.Drawing.Point(176, 147);
+            btnCuota.Location = new System.Drawing.Point(178, 174);
             btnCuota.Name = "btnCuota";
             btnCuota.Size = new System.Drawing.Size(102, 37);
             btnCuota.TabIndex = 11;
@@ -174,12 +176,32 @@
             btnVolver.UseVisualStyleBackColor = false;
             btnVolver.Click += btnVolver_Click;
             // 
+            // txtMonto
+            // 
+            txtMonto.Location = new System.Drawing.Point(133, 133);
+            txtMonto.Name = "txtMonto";
+            txtMonto.Size = new System.Drawing.Size(188, 23);
+            txtMonto.TabIndex = 15;
+            txtMonto.TextChanged += txtDocumento_TextChanged;
+            // 
+            // lblMonto
+            // 
+            lblMonto.AutoSize = true;
+            lblMonto.Enabled = false;
+            lblMonto.Location = new System.Drawing.Point(81, 136);
+            lblMonto.Name = "lblMonto";
+            lblMonto.Size = new System.Drawing.Size(46, 15);
+            lblMonto.TabIndex = 14;
+            lblMonto.Text = "Monto:";
+            // 
             // Cuota
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(153, 206, 213);
             ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(txtMonto);
+            Controls.Add(lblMonto);
             Controls.Add(btnVolver);
             Controls.Add(groupBox1);
             Controls.Add(btnCuota);
@@ -208,5 +230,7 @@
         private System.Windows.Forms.TextBox txtDocumento;
         private System.Windows.Forms.Label lblDoc;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.TextBox txtMonto;
+        private System.Windows.Forms.Label lblMonto;
     }
 }
